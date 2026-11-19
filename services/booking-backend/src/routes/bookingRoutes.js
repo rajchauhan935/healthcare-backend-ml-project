@@ -1,4 +1,3 @@
-
 const express = require('express');
 const {
   createBooking,
@@ -16,7 +15,6 @@ router.use(authenticate);
 router.post('/', createBooking);
 router.get('/', listBookings);
 router.get('/:id', getBooking);
-
 router.patch('/:id/status', updateBookingStatus);
 
 module.exports = router;

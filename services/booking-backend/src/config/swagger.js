@@ -1,4 +1,3 @@
-
 const swaggerJsdoc = require('swagger-jsdoc');
 
 const options = {
@@ -11,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:4000',
+        url: 'http://localhost:4001',
         description: 'Local development server',
       },
     ],
